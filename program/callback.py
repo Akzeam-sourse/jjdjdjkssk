@@ -40,12 +40,12 @@ async def cbstart(_, query: CallbackQuery):
                         "‹ قناة المطور ›", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ قناة البوت ›", url=f"https://t.me/IIlI4l"
+                        "‹ قناة البوت ›", url=f"https://t.me/YI500"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ 𝖣𝖾𝗏𝖤𝗏𝖺𝗇 𝖳𝖾𝖠𝗆 .", url="https://t.me/vrrrrvr"
+                        "‹ 𝖲𝗈𝗎𝗋𝖼ᥱ 𝖪𝗎𝖻𝗋𝖺 𝖳ᥱ𝖺𝗆 ›", url="https://t.me/CupraTiam"
                     )
                 ],
             ]
