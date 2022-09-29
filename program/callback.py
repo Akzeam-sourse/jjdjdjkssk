@@ -26,7 +26,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "• اضفني الى مجموعتڪ •",
+                        "‹ اضفني الى مجموعتڪ ›",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
@@ -40,12 +40,12 @@ async def cbstart(_, query: CallbackQuery):
                         "‹ قناة المطور ›", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ قناة البوت ›", url=f"https://t.me/YI500"
+                        "‹ قناة البوت ›", url=f"https://t.me/ssrr_r"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹ 𝖲𝗈𝗎𝗋𝖼ᥱ 𝖪𝗎𝖻𝗋𝖺 𝖳ᥱ𝖺𝗆 ›", url="https://t.me/CupraTiam"
+                        "‹ 𝖲𝗈𝗎𝗋𝖼ᥱ ›", url="https://t.me/ssrr_r"
                     )
                 ],
             ]
@@ -70,7 +70,7 @@ async def cbguides(_, query: CallbackQuery):
 
 ᥀ __بواسطة  {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("• رجوع •", callback_data="cbstart")]]
+            [[InlineKeyboardButton("‹ رجوع ›", callback_data="cbstart")]]
         ),
     )
 
@@ -86,12 +86,12 @@ async def cbcmds(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("᥀ اوامر المشرفين •", callback_data="cbadmin"),
-                    InlineKeyboardButton("᥀ اوامر المطور •", callback_data="cbsudo"),
+                    InlineKeyboardButton("‹ اوامر المشرفين ›", callback_data="cbadmin"),
+                    InlineKeyboardButton("‹ اوامر المطور ›", callback_data="cbsudo"),
                 ],[
-                    InlineKeyboardButton("᥀ اوامر الاعضاء •", callback_data="cbbasic")
+                    InlineKeyboardButton("‹ اوامر الاعضاء ›", callback_data="cbbasic")
                 ],[
-                    InlineKeyboardButton("• رجوع •", callback_data="cbstart")
+                    InlineKeyboardButton("‹ رجوع ›", callback_data="cbstart")
                 ],
             ]
         ),
@@ -119,7 +119,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 ᥀ __بواسطة {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("• رجوع •", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("‹ رجوع ›", callback_data="cbcmds")]]
         ),
     )
 
@@ -142,7 +142,7 @@ async def cbadmin(_, query: CallbackQuery):
 
 ᥀ __بواسطة {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("• رجوع •", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("‹ رجوع ›", callback_data="cbcmds")]]
         ),
     )
 
@@ -160,7 +160,7 @@ async def cbsudo(_, query: CallbackQuery):
 
 ᥀ __بواسطة {BOT_NAME} __""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("• رجوع •", callback_data="cbcmds")]]
+            [[InlineKeyboardButton("‹ رجوع ›", callback_data="cbcmds")]]
         ),
     )
 #تم تعريب وتعديل هذا الملف بواسطه ايفان تخمط اختك انيجها 😂
@@ -178,14 +178,14 @@ async def cbmenu(_, query: CallbackQuery):
               f"⚙️ **اعدادات الاغنية** {query.message.chat.title}\n\n⏸ : ايقاف مؤقت\n▶️ : استمرار\n🔇 : كتم حساب المساعد\n🔊 : الغاء كتم حساب المساعد\n⏹ : ايقاف التشغيل",
               reply_markup=InlineKeyboardMarkup(
                   [[
-                      InlineKeyboardButton("⏹", callback_data="cbstop"),
-                      InlineKeyboardButton("⏸", callback_data="cbpause"),
-                      InlineKeyboardButton("▶️", callback_data="cbresume"),
+                      InlineKeyboardButton("‹ ⏹ ›", callback_data="cbstop"),
+                      InlineKeyboardButton("‹ ⏸ ›", callback_data="cbpause"),
+                      InlineKeyboardButton("‹ ▶️ ›", callback_data="cbresume"),
                   ],[
-                      InlineKeyboardButton("🔇", callback_data="cbmute"),
-                      InlineKeyboardButton("🔊", callback_data="cbunmute"),
+                      InlineKeyboardButton("‹ 🔇 ›", callback_data="cbmute"),
+                      InlineKeyboardButton("‹ 🔊 ›", callback_data="cbunmute"),
                   ],[
-                      InlineKeyboardButton("🗑 اغلاق", callback_data="cls")],
+                      InlineKeyboardButton("‹ 🗑 اغلاق ›", callback_data="cls")],
                   ]
              ),
          )
